@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import {Link} from 'react-router-dom'
 import {SiGnuprivacyguard} from "react-icons/si";
-import { navigationData } from '../data/navigationData'
+import { NavigationData } from '../data/NavigationData.js'
 import {IoReorderThreeOutline} from "react-icons/io5"
 import {IoClose} from "react-icons/io5"
 
@@ -24,7 +24,7 @@ function Navbar() {
         <div className='hidden md:flex justify-center items-center gap-3 text-[16px] font-semibold'>
             <ul className='flex justify-center items-center gap-3'>
                 {
-                    navigationData.map(item => {
+                    NavigationData.map(item => {
                         const ItemComponent = item.icon;
                         return (
                         <li key={item.id} className='hover:bg-gradient-to-r hover:from-blue-500 hover:to-cyan-500 hover:text-white transition-all duration-300 p-[10px] rounded-lg'>
@@ -62,7 +62,7 @@ function Navbar() {
         }`}>
             <ul className='py-4'>
                 {
-                    navigationData.map(item => {
+                    NavigationData.map(item => {
                         const ItemComponent = item.icon;
                         return (
                         <li key={item.id} className='flex justify-center hover:bg-gradient-to-r hover:from-blue-500 hover:to-cyan-500 hover:text-white transition-all duration-300 mx-4 my-2 rounded-lg'>

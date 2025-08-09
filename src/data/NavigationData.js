@@ -3,7 +3,7 @@ import { BiDetail, BiSolidContact} from "react-icons/bi"
 import {MdHomeRepairService} from "react-icons/md"
 
 
-export const navigationData = [
+export const NavigationData = [
     {
         id: 1,
         label: "Home",
