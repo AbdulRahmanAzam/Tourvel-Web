@@ -2,9 +2,11 @@ import React from 'react'
 import Hero from '../components/Hero'
 import Footer from '../components/Footer'
 import { FaUsers, FaGlobe, FaAward, FaHeart, FaStar, FaPlane, FaMapMarkedAlt, FaHandshake } from 'react-icons/fa'
+import Image from "../assets/2.jpg"
 import Image1 from '../assets/img.jpg'
 import Image2 from "../assets/2.jpg"
 import Image3 from "../assets/night.jpg"
+import Image4 from "../assets/12.jpg"
 
 function About() {
   const stats = [
@@ -61,7 +63,7 @@ function About() {
   return (
     <>
       <Hero
-        imageSrc="../assets/2.jpg"
+        imageSrc={Image}
         Heading="About Our Travel Agency"
         subHeading="We are dedicated to providing the best travel experiences."
         description="Our team of experts is here to help you every step of the way."
@@ -96,7 +98,7 @@ function About() {
             </div>
             <div className='relative'>
               <img 
-                src="../assets/12.jpg" 
+                src={Image4} 
                 alt="Our Story" 
                 className='w-full h-96 object-cover rounded-3xl shadow-lg'
               />

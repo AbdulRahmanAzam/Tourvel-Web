@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Hero from '../components/Hero'
 import { FaPhone, FaEnvelope, FaMapMarkerAlt, FaClock } from 'react-icons/fa'
 import Footer from '../components/Footer';
+import Image from '../assets/3.jpg';
 
 function Contact() {
   const [formData, setFormData] = useState({
@@ -43,7 +44,7 @@ function Contact() {
   return (
     <>
       <Hero
-        imageSrc="../assets/3.jpg"
+        imageSrc={Image}
         Heading="Get in Touch"
         subHeading="We would love to hear from you!"
         description="Contact us for any inquiries or to book your next adventure."
