@@ -1,4 +1,8 @@
 import React from 'react'
+import Image1 from '../assets/4.jpg'
+import Image2 from '../assets/5.jpg'
+import Image3 from "../assets/6.jpg"
+import Image4 from "../assets/8.jpg"
 
 function Destination() {
   return (
@@ -44,7 +48,7 @@ function Destination() {
           <div className='grid grid-cols-1 sm:grid-cols-2 gap-4'>
             <div className='relative group overflow-hidden rounded-2xl shadow-lg sm:mb-8'>
               <img 
-                src="../assets/4.jpg" 
+                src={Image1} 
                 alt="Taal Volcano view 1" 
                 className='w-full h-48 md:h-64 object-cover transition-transform duration-500 group-hover:scale-110' 
               />
@@ -57,7 +61,7 @@ function Destination() {
             
             <div className='relative group overflow-hidden rounded-2xl shadow-lg sm:mt-8'>
               <img 
-                src="../assets/5.jpg" 
+                src={Image2}
                 alt="Taal Volcano view 2" 
                 className='w-full h-48 md:h-64 object-cover transition-transform duration-500 group-hover:scale-110' 
               />
@@ -89,7 +93,7 @@ function Destination() {
           <div className='grid grid-cols-1 sm:grid-cols-2 gap-4'>
             <div className='relative group overflow-hidden rounded-2xl shadow-lg bg-black sm:mb-8'>
               <img 
-                src="../assets/6.jpg" 
+                src={Image3} 
                 alt="Mt. Daguldul view 1" 
                 className='w-full h-48 md:h-64 object-cover transition-transform duration-500 group-hover:scale-110' 
               />
@@ -102,7 +106,7 @@ function Destination() {
             
             <div className='relative group overflow-hidden rounded-2xl shadow-lg sm:mt-8'>
               <img 
-                src="../assets/8.jpg" 
+                src={Image4} 
                 alt="Mt. Daguldul view 2" 
                 className='w-full h-48 md:h-64 object-cover transition-transform duration-500 group-hover:scale-110' 
               />
