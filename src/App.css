@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+.bottom-row h1{
+    @apply text-lg font-bold mb-2;
+}
